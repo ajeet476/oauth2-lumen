@@ -1,0 +1,14 @@
+{
+    "name": "ajeet632/oauth2-lumen",
+    "description": "oauth2 with lumen using lucadegasperi/oauth2-server-laravel and  optimus/oauth2-server-lumen",
+    "type": "oauth2",
+    "license": "MIT",
+    "require": {
+        "lucadegasperi/oauth2-server-laravel": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ajeet632\\OAuth2Server\\": "src"
+        }
+    },
+}
